@@ -1,4 +1,4 @@
-local my_github_url = "https://raw.githubusercontent.com/incognitocoded/LostHub2/blob/main/main.lua" 
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 
 local success, content = pcall(function()
     return game:HttpGet(my_github_url)
